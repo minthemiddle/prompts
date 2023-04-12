@@ -1,0 +1,10 @@
+<?php
+
+$botToken = '';
+$chatId = '';
+$openAiID = '';
+$personal = [
+    'gender_partner' => 'female',
+    'target_language' => 'German',
+    'formality' => 'informal',
+];
