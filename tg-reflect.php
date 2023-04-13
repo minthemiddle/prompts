@@ -7,7 +7,8 @@ use Telegram\Bot\Api;
 use Telegram\Bot\Exceptions\TelegramSDKException;
 
 // Set up the connection to the SQLite database
-$db = new SQLite3('prompts.sqlite');
+$db_file = __DIR__ . '/prompts.sqlite';
+$db = new SQLite3($db_file);
 
 // Set up the Telegram bot
 
